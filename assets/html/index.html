@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crypto-Tech</title>
+    <link
+      rel="preload"
+      href="/assets/css/index.css"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript>
+      <link rel="stylesheet" href="/assets/css/index.css" />
+    </noscript>
+
+    <!-- JavaScript for toggling the side navigation bar -->
+    <script src="/assets/javascript/index.js"></script>
+  </head>
+  <body>
+    <header class="top-header">
+      <section class="main-header">
+        <div class="main-header-content container">
+          <div class="logo">
+            <img
+              src="/assets/images/crypto-tech-logo.png"
+              alt="crypto-tech-logo"
+            />
+          </div>
+
+          <!-- Original Navigation Menu -->
+          <nav class="original-nav">
+            <ul>
+              <li><a href="#">HOME</a></li>
+              <li><a href="#">ABOUT</a></li>
+              <li><a href="#">SERVICES</a></li>
+              <li><a href="#">CONTACT</a></li>
+              <li><a href="#">LOGIN</a></li>
+              <li class="bg-color-pink reg-color-fmt">
+                <a href="#">REGISTER</a>
+              </li>
+            </ul>
+          </nav>
+          <!-- End of Original Navigation Menu -->
+
+          <!-- Side Navigation Bar (Hamburger Icon) -->
+          <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+              &times;
+            </a>
+            <a href="#">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="#">SERVICES</a>
+            <a href="#">CONTACT</a>
+            <a href="#">LOGIN</a>
+            <a href="#">REGISTER</a>
+          </div>
+
+          <span class="hamburger-icon" onclick="toggleNav()">&#9776;</span>
+          <!-- End of Side Navigation Bar (Hamburger Icon) -->
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-flex container">
+          <div class="hero-content">
+            <h2>
+              Welcome To
+              <br />
+              Crypto-Tech
+            </h2>
+
+            <p>
+              Your Trusted Firm for Forex, Stock(CFD), Binary Option and
+              CryptoCurrency Trading Solution...
+            </p>
+            <div class="main-btn">
+              <button class="bg-color-pink">LOGIN</button>
+              <button class="bg-color-pink">REGISTER</button>
+            </div>
+          </div>
+
+          <div class="banner">
+            <img src="/assets/images/banner-img.png" alt="banner-img" />
+          </div>
+        </div>
+      </section>
+
+      <section class="main-info">
+        <div class="get-started">
+          <h2>OUR EASY STEPS TO GET STARTED</h2>
+          <p>3 easy steps to get started</p>
+        </div>
+
+        <div class="how-to-start container">
+          <ul>
+            <li>
+              <img src="/assets/images/users.png" alt="" />
+              <h2>Create Account</h2>
+              <p>
+                Click on the register button to create your first
+                <br />
+                trading Account with our platform.
+              </p>
+            </li>
+
+            <li>
+              <img src="/assets/images/wallet.png" alt="" />
+              <h2>Found Account</h2>
+              <p>
+                Fund your trading account by choosing your
+                <br />
+                preferred payment method.
+              </p>
+            </li>
+            <li>
+              <img src="/assets/images/chart.png" alt="" />
+              <h2>Trade & Earn</h2>
+              <p>
+                Start Your trading and earn better profit with our
+                <br />
+                fast withdrawal system.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="about">
+        <div class="second-container">
+          <div class="about-img">
+            <img src="/assets/images/work-process.png" alt="" />
+          </div>
+
+          <div class="about-content">
+            <h2>About Crypto-Tech</h2>
+            <p>
+              Crypto-Tech is fully automated trading platform that gives you
+              full control of your investment, and allows you to withdraw your
+              capital and profit at anytime. we were one of the first to invest
+              in Crypto Currencies. Crypto-Tech is a legal leading blockchain
+              investment company, located in USA
+            </p>
+
+            <p>
+              Our mission is to act as a catalyst for universal adoption and
+              blockchain innovation. We focus only on investing in blockchain
+              technologies. Our team has experince in both traditional financing
+              and emerging blockchain technology
+            </p>
+
+            <p>
+              It was established by a group of professional traders and
+              investors, who have fore seen the futre of Cypto Currency
+            </p>
+
+            <ul class="custom-list">
+              <li>
+                <input type="checkbox" class="custom-checkbox" disabled />
+                24 hours Support
+              </li>
+              <li>
+                <input type="checkbox" class="custom-checkbox" disabled />
+                Reliable Platform
+              </li>
+
+              <li>
+                <input type="checkbox" class="custom-checkbox" disabled />
+                Swift Withdrawal & Funding Service
+              </li>
+              <!-- Add more list items as needed -->
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="Award-section container">
+        <div class="">
+          <p class="color-pink">AWARDS</p>
+          <h2>Our Top Most Iconic Awards</h2>
+        </div>
+
+        <div class="awards second-container">
+          <img src="/assets/images/awards.png" alt="awards" />
+        </div>
+      </section>
+
+      <section class="widget main-info">
+        <div class="widget-info container">
+          <div class="widget-content">
+            <h2>Grab Our available trading opportunities</h2>
+
+            <p>Discover thousands of trading and investment opportunities</p>
+
+            <p>
+              Not only do we provide our traders with execellent trading
+              instruments, but we also support them with the best tools:
+              volatility alerts, market updates, stock screeners, calenders and
+              newsletters.
+            </p>
+
+            <p>
+              A multi-platform layout, technical analysis, historical quotes and
+              beyond. everything you're looking for in a platform-on all device
+              of your choice
+            </p>
+          </div>
+
+          <!-- Script for Coingecko Widget -->
+          <div class="coingecko-coin-compare-chart-widget custom-chart-size">
+            <script src="https://widgets.coingecko.com/coingecko-coin-compare-chart-widget.js"></script>
+            <coingecko-coin-compare-chart-widget
+              coin-ids="bitcoin,ethereum,eos,ripple,litecoin"
+              currency="usd"
+              locale="en"
+            ></coingecko-coin-compare-chart-widget>
+          </div>
+        </div>
+      </section>
+
+      <section class="top-service container">
+        <div class="top-service-content">
+          <p class="color-pink">SERVICES</p>
+          <h2>Our Top Services</h2>
+          <p class="sub-paragraph">
+            See the benefits you get by working wuth our expert
+          </p>
+        </div>
+
+        <ul class="service-color">
+          <li>
+            <img src="/assets/images/feature-1.png" alt="feature-1" />
+            <h2>Safe & Secure</h2>
+            <p>
+              We don't require identity verification, information about your
+              activity on the website is private and can'r be accessed by third
+              parties
+            </p>
+          </li>
+
+          <li>
+            <img src="/assets/images/feature-2.png" alt="featured-2" />
+            <h2>Profit Guarantee</h2>
+            <p>
+              With our expertise we Guarantee you the best profits in the
+              market. No one can beat us. With us you will enjoy the safest and
+              best profit rates.
+            </p>
+          </li>
+
+          <li>
+            <img src="/assets/images/feature-3.png" alt="feature-3" />
+            <h2>Profit Guarantee</h2>
+            <p>
+              With our expertise we Guarantee you the best profits in the
+              market. No one can beat us. With us you will enjoy the safest and
+              best profit rates.
+            </p>
+          </li>
+
+          <li>
+            <img src="/assets/images/feature-3.png" alt="feature-3" />
+            <h2>Profit Guarantee</h2>
+            <p>
+              With our expertise we Guarantee you the best profits in the
+              market. No one can beat us. With us you will enjoy the safest and
+              best profit rates.
+            </p>
+          </li>
+
+          <li>
+            <img src="/assets/images/feature-3.png" alt="feature-3" />
+            <h2>Profit Guarantee</h2>
+            <p>
+              With our expertise we Guarantee you the best profits in the
+              market. No one can beat us. With us you will enjoy the safest and
+              best profit rates.
+            </p>
+          </li>
+
+          <li>
+            <img src="/assets/images/feature-3.png" alt="feature-3" />
+            <h2>Profit Guarantee</h2>
+            <p>
+              With our expertise we Guarantee you the best profits in the
+              market. No one can beat us. With us you will enjoy the safest and
+              best profit rates.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="bitcon-flex main-info">
+        <div class="bitcoin-container container">
+          <h2>Bitcoin Calculator</h2>
+          <div class="bitcoin">
+            <div class="man-smilling">
+              <img src="/assets/images/11b.png" alt="11" />
+            </div>
+
+            <!-- Script for Calculator Chart.js -->
+            <div class="custom-calculator-chart">
+              <script src="https://widgets.coingecko.com/coingecko-coin-converter-widget.js"></script>
+              <coingecko-coin-converter-widget
+                coin-id="bitcoin"
+                currency="usd"
+                background-color="#ffffff"
+                font-color="#4c4c4c"
+                locale="en"
+              ></coingecko-coin-converter-widget>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-info">
+        <div class="Analysis-head container">
+          <h2>Analysis</h2>
+          <div class="Analysis-flex">
+            <div class="Analysis">
+              <ul class="colored-circle-list">
+                <li>Investment</li>
+                <li>Payment Spead</li>
+                <li>Private Investor</li>
+                <li>Trust Rates</li>
+                <li>Support Service</li>
+              </ul>
+            </div>
+
+            <div class="piechart">
+              <!-- Script for Chart.js -->
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+              <canvas
+                id="myChart"
+                style="width: 100%; max-width: 600px"
+              ></canvas>
+
+              <script>
+                var xValues = ['Italy', 'France', 'Spain', 'USA', 'Argentina'];
+                var yValues = [99, 87, 90, 100, 100];
+                var barColors = [
+                  '#F85D77',
+                  '#F8C04F',
+                  '#AC56F7',
+                  '#61F89F',
+                  '#5AD6F8',
+                ];
+
+                new Chart('myChart', {
+                  type: 'pie',
+                  data: {
+                    labels: xValues,
+                    datasets: [
+                      {
+                        backgroundColor: barColors,
+                        data: yValues,
+                      },
+                    ],
+                  },
+                  options: {
+                    title: {
+                      display: true,
+                      text: 'World Wide Profit Winning',
+                    },
+                  },
+                });
+              </script>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-info">
+        <div class="Affordable-investment container">
+          <div><img src="/assets/images/dfffs.png" alt="diff.png" /></div>
+
+          <div>
+            <div class="Affordable-plan">
+              <h2>Affordable Investment Plan</h2>
+              <p>
+                Due to the professionalism of our employees and the introduction
+                of cutting-edge trading facilities, we manage to provide
+                top-quality investment services at minimal cost. We currently
+                have about 1 million olus investors globally and about 90-120
+                new investment accounts opend daily.
+              </p>
+
+              <ul class="custom-list">
+                <li>
+                  <input type="checkbox" class="custom-checkbox" disabled />
+                  Affordable Starter Plan
+                </li>
+                <li>
+                  <input type="checkbox" class="custom-checkbox" disabled />
+                  Minimum Investment
+                </li>
+                <!-- Add more list items as needed -->
+              </ul>
+            </div>
+
+            <div>
+              <button class="btn bg-color-pink bg-color-fmt">
+                INVEST NOW $200.00
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="package main-info">
+        <div class="container">
+          <p class="color-pink">PACKAGES</p>
+          <h2>Crypto-Tech Investment plans</h2>
+
+          <div class="Package-table">
+            <ul>
+              <li class="package-head package-top-radius">Starter Plan</li>
+              <li class="package-head head-white">$200</li>
+              <li>Minimum $200</li>
+              <li>Maximum $9,998</li>
+              <li>Signal Professional</li>
+              <li>3% Referral Bonus</li>
+              <li>24hrs Support</li>
+              <li class="package-bottom-radius">
+                <button class="bg-color-pink bg-color-fmt">PURCHASE</button>
+              </li>
+            </ul>
+
+            <ul>
+              <li class="package-head bg-color-pink package-top-radius">
+                Premium Plan
+              </li>
+              <li class="package-head head-white">$10,000</li>
+              <li>Minimum $10,000</li>
+              <li>Maximum $19,999</li>
+              <li>Signal Professional</li>
+              <li>5% Referral Bonus</li>
+              <li>24hrs Support</li>
+              <li class="package-bottom-radius">
+                <button class="bg-color-pink bg-color-fmt">PURCHASE</button>
+              </li>
+            </ul>
+
+            <ul>
+              <li class="package-head package-top-radius">Standard Plan</li>
+              <li class="package-head head-white">$20,000</li>
+              <li>Minimum $20,000</li>
+              <li>Maximum $50,000</li>
+              <li>Signal Professional</li>
+              <li>6% Referral Bonus</li>
+              <li>24hrs Support</li>
+              <li class="package-bottom-radius">
+                <button class="bg-color-pink bg-color-fmt">PURCHASE</button>
+              </li>
+            </ul>
+
+            <ul>
+              <li class="package-head package-top-radius">Vip Plan</li>
+              <li class="package-head head-white">$50,000</li>
+              <li>Minimum $50,000</li>
+              <li>Maximum Above</li>
+              <li>Signal Professional</li>
+              <li>10% Referral Bonus</li>
+              <li>24hrs Support</li>
+              <li class="package-bottom-radius">
+                <button class="bg-color-pink bg-color-fmt">PURCHASE</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-info">
+        <div class="referral-program container">
+          <div class="phone">
+            <img src="/assets/images/about-2.png" alt="about" />
+          </div>
+
+          <div class="referral-content">
+            <h2>REFERRAL PROGRAM</h2>
+            <p>
+              With our referral program, you can earn money by advrtising our
+              system to others, Build the best team with us. We offer 4-level
+              referral program with 8%-6%-4%-3% commission. Try to convince as
+              many people as possible, each new person is an additional income
+              for you. Send your referral link to companions, familiy and share
+              them on online media. We will provide you with all the
+              informations and necessary advertising materials. Record a video
+              showing how you invest, share proofs of your payouts. We give full
+              freedom in advertinsing your reference link. The referral program
+              earning are unlimited, your structure can have a virtually
+              infinite number of users, and your commission will be paid
+              immediately upon receipt.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="Testimony-head container">
+        <div class="testimony-content">
+          <p class="color-pink">TESTIMONY</p>
+          <h2>Our Top Testimonials</h2>
+          <p>Testimonial reviews from top investors and certified users</p>
+        </div>
+
+        <div class="testimony-flex">
+          <ul>
+            <li>
+              <div class="rounded-image">
+                <img src="/assets/images/logo.png" alt="Your Image" />
+              </div>
+
+              <div class="testimony-flex-content">
+                <h2>Harrison Kelvin</h2>
+                <p>
+                  I got my investment on time will be investing more next time
+                </p>
+                <a href="#">Investor</a>
+              </div>
+            </li>
+
+            <li>
+              <div class="rounded-image">
+                <img src="/assets/images/logo.png" alt="Your Image" />
+              </div>
+
+              <div class="testimony-flex-content">
+                <h2>Harrison Kelvin</h2>
+                <p>
+                  I got my investment on time will be investing more next time
+                </p>
+                <a href="#">Investor</a>
+              </div>
+            </li>
+
+            <li>
+              <div class="rounded-image">
+                <img src="/assets/images/logo.png" alt="Your Image" />
+              </div>
+
+              <div class="testimony-flex-content">
+                <h2>Harrison Kelvin</h2>
+                <p>
+                  I got my investment on time will be investing more next time
+                </p>
+                <a href="#">Investor</a>
+              </div>
+            </li>
+
+            <li>
+              <div class="rounded-image">
+                <img src="/assets/images/logo.png" alt="Your Image" />
+              </div>
+
+              <div class="testimony-flex-content">
+                <h2>Harrison Kelvin</h2>
+                <p>
+                  I got my investment on time will be investing more next time
+                </p>
+                <a href="#">Investor</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="container">
+        <div class="blog-session">
+          <h2>Security Comes First</h2>
+          <p>
+            Your security snd trust are important to us. We're committed to
+            protecting your account with
+            <br />
+            the highest standards of security available
+          </p>
+        </div>
+
+        <div class="blog">
+          <ul>
+            <li>
+              <img src="/assets/images/blog-1.jpeg" alt="blog1" />
+
+              <div>
+                <h2>We are Trusted</h2>
+                <p>
+                  Over $600m and counting-more than 900k people trust over $930
+                  billion with Crypto-Tech
+                </p>
+              </div>
+            </li>
+
+            <li>
+              <img src="/assets/images/blog-2.jpeg" alt="blog1" />
+
+              <div>
+                <h2>We are Trusted</h2>
+                <p>
+                  Over $600m and counting-more than 900k people trust over $930
+                  billion with Crypto-Tech
+                </p>
+              </div>
+            </li>
+
+            <li>
+              <img src="/assets/images/blog-3.jpeg" alt="blog1" />
+
+              <div>
+                <h2>We are Trusted</h2>
+                <p>
+                  Over $600m and counting-more than 900k people trust over $930
+                  billion with Crypto-Tech
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="container">
+        <div class="FAQS-content">
+          <p class="color-pink">FAQS</p>
+          <h2 class="frequently-ask">Frequently Asked questions</h2>
+          <p>OUR MOST FREQUENTLY ASKED QUETIONS</p>
+        </div>
+        <div class="FAQS">
+          <ul>
+            <li>
+              <h2>How to create an account</h2>
+              <p>
+                Its not difficult at all. Click on the following button, fill in
+                the registeration form and create a new account, or visit the
+                referral link issued to you by your referral.
+              </p>
+              <button class="bg-color-pink bg-color-fmt btn">REGISTER</button>
+            </li>
+
+            <li>
+              <h2>How To Login</h2>
+              <p>
+                For you to login into your account you must have an acount with
+                us, then click on the login page located at the menu button at
+                the top left corner of your screen, else click the button below
+              </p>
+              <button class="bg-color-pink bg-color-fmt btn">LOGIN</button>
+            </li>
+
+            <li>
+              <h2>How to chnage my password</h2>
+              <p>
+                Login to your Trading account and click on the settings page you
+                will be requred to add your old password, new password then
+                rewrite new password to change your password.
+              </p>
+            </li>
+
+            <li>
+              <h2>How to Reset Password</h2>
+              <p>
+                Click the button below then you will be redirected to your
+                password reset page, then you will be required to insert your
+                email in other to rest your account password.
+              </p>
+              <button class="bg-color-pink bg-color-fmt btn">
+                RESET PASSWORD
+              </button>
+            </li>
+
+            <li>
+              <h2>How to Fund Acount</h2>
+              <p>
+                Click on the deposit button located in your dashboard then enter
+                the amount you want to deposit, click the make deposit button
+                you will be shown the details you will make your payment to,
+                after which you will upload your payment proof for quick
+                verification, you will be notified via your email address once
+                payment has been received by our platform, please note that any
+                payment made outside the company wallet address or to any
+                account manager will be conciderd void and our platform wont be
+                held responsible for such.
+              </p>
+            </li>
+
+            <li>
+              <h2>How to withdrawal Funds</h2>
+              <p>
+                Click on the Withdraw button located in your dashboard then fill
+                all the required information then the amount you wish too
+                withdraw, once request is made and confirmed by our platform you
+                will received it in your account, please note that withdrawal
+                request is only available for using who have money in their
+                account.
+              </p>
+            </li>
+
+            <li>
+              <h2>How can I keep my account safe</h2>
+              <p>
+                We take all security measures to protect your account and keep
+                it safe from third parties intrusion, please don't share your
+                account information to any one, most especially your login
+                details.
+              </p>
+            </li>
+
+            <li>
+              <h2>May I create more than one account</h2>
+              <p>
+                No. you are only allowed to create only one account. For special
+                situations please contact our Support team by clicking the
+                button below
+              </p>
+              <button class="bg-color-pink bg-color-fmt btn">
+                CONTACT SUPPORT
+              </button>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="main-info">
+      <section class="footer-navbar container">
+        <div class="foot-logo">
+          <img
+            src="/assets/images/crypto-tech-logo.png"
+            alt="crypto-tech-logo"
+          />
+          <div class="google">
+            <div id="google_translate_element"></div>
+
+            <script type="text/javascript">
+              function googleTranslateElementInit() {
+                new google.translate.TranslateElement(
+                  { pageLanguage: 'en' },
+                  'google_translate_element'
+                );
+              }
+            </script>
+
+            <script
+              type="text/javascript"
+              src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+            ></script>
+          </div>
+        </div>
+        <nav class="navbar">
+          <ul class="foot-navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li>
+              <a href="#">Subscribe to our Platform Newsleter</a>
+            </li>
+            <li><a href="#">Faqs</a></li>
+            <li><a href="#">CryptoCurrency</a></li>
+            <li><a href="#">Forex & Stock (CFD)</a></li>
+            <input type="text" />
+          </ul>
+        </nav>
+      </section>
+    </footer>
+  </body>
+</html>
